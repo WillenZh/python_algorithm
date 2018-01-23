@@ -31,6 +31,7 @@ class Array(object):
 
     def __iter__(self):
         """Supports iteration over a view of an array."""
+        print("ggg")
         return iter(self._items)
 
     def __getitem__(self, index):
